@@ -3,4 +3,3 @@ opencv-python
 imutils
 requests
 pandas
-torch torchvision torchaudio
