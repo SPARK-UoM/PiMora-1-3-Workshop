@@ -1,0 +1,6 @@
+numpy
+opencv-python
+imutils
+requests
+torch 
+torchvision
