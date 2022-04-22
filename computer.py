@@ -1,12 +1,6 @@
 import torch
-from torch.utils.data import Dataset
-import pandas as pd
-from torchvision.io import read_image
 from torchvision.transforms import Resize
-from torchvision.transforms import ToTensor
 from torch import nn
-from torch.optim import Optimizer
-from torch.optim import Adam
 import numpy as np
 import cv2
 

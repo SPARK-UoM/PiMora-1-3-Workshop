@@ -61,7 +61,10 @@ normed_weights = [0.015228536906614965, 0.984771463093385]
 loss_function = nn.CrossEntropyLoss(weight=torch.tensor(normed_weights))
 
 model = MaskDetector(loss_function)
+
+# change the path here
 m_state_dict = torch.load('Resources\large_model.pt', map_location=device)
+
 model.load_state_dict(m_state_dict)
 model.to(device)
 
